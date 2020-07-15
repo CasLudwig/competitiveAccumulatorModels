@@ -30,7 +30,7 @@ This code is really just intended for those initial simulations that often prece
 
 However, with many different sources of noise such models can often become unwieldy and simulation is the only feasible way to go (Brown, Ratcliff, & Smith, 2006). For this reason, the "toolbox" also contains a function that allows you to compare a simulated with an empirically observed (defective) latency distribution. The goodness-of-fit measures include the deviance (-2 times the log-likelihood), Chi-square, and G-square. The deviance may be computed for both binned and unbinned distributions. That said, with model predictions derived from simulation I recommend using bins or quantiles. My own preferred metric for goodness-of-fit is the deviance, as it is easily transformed into AIC or BIC, which enables straightforward comparison between models with different numbers of free parameters. Note that any set of parameters that minimises the deviance will also minimise G-square, but not Chi-square. For all measures lower values indicate a better fit.
 
-To get started, download and unzip this file to a folder on the Matlab path, and begin by reading 'notes.m' (or type 'help notes' in the command window). To check how to compare an observed with a simulated distribution type 'help compute_fit'.
+To get started, download the matlab files to a folder on the Matlab path and begin by reading 'notes.m' (or type 'help notes' in the command window). To check how to compare an observed with a simulated distribution type 'help compute_fit'.
 
 Finally:
 
